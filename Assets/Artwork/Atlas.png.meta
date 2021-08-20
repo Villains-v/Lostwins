@@ -148,7 +148,7 @@ TextureImporter:
     second: Chest_1
   - first:
       213: -2386295036631077607
-    second: Chest_2
+    second: menu_0
   - first:
       213: -6613792370922084840
     second: Chest_4
@@ -1348,7 +1348,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Chest_2
+      name: menu_0
       rect:
         serializedVersion: 2
         x: 224
@@ -1629,7 +1629,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
