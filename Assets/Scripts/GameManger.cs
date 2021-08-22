@@ -28,7 +28,7 @@ public class GameManger : MonoBehaviour
 
     // References
     public Player player;
-    // public weapon weapon...
+    public Weapon weapon; 
     public FlotingTextManager floatingTextManager;
 
 
@@ -42,6 +42,71 @@ public class GameManger : MonoBehaviour
         floatingTextManager.Show(msg, fontSize, color, position, motion, duration);
     }
 
+    // Upgrade Weapon
+    public bool TryUpgradeWeapon()
+    {
+        // is the weapon max level?
+        if (weaponPrices.Count <= weapon.weaponLevel)
+            return false;
+
+        if(pesos >= weaponPrices[weapon.weaponLevel])
+        {
+            pesos -= weaponPrices[weapon.weaponLevel];
+            weapon.UpgradeWeapon();
+            return true;
+        }
+
+        return false;
+    }
+
+    private void Update()
+    {
+        // Debug.Log(GetCurrentLevel());
+    }
+
+    // Experience System
+    public int GetCurrentLevel()
+    {
+        int r = 0;
+        int add = 0;
+
+        while (experience >= add)
+        {
+            add += xpTable[r];
+            r++;
+
+            if (r == xpTable.Count) // Max Level
+                return r;
+        }
+
+        return r;
+    }
+    public int GetXpToLevel(int level)
+    {
+        int r = 0;
+        int xp = 0;
+
+        while (r < level)
+        {
+            xp += xpTable[r];
+            r++;
+        }
+
+        return xp;
+    }
+    public void GrantXp(int xp)
+    {
+        int currLevel = GetCurrentLevel();
+        experience += xp;
+        if (currLevel < GetCurrentLevel())
+            OnLevelUp();
+    }
+    public void OnLevelUp()
+    {
+        Debug.Log("Level UP!");
+        player.OnLevelUp();
+    }
+
     // Save state 
     /*
      * INT perferedSkin
@@ -51,11 +116,36 @@ public class GameManger : MonoBehaviour
      */
     public void SaveState()
     {
-        Debug.Log("SaveState");
+        string s = "";
+
+        s += "0" + "|";
+        s += pesos.ToString() + "|";
+        s += experience.ToString() + "|";
+        s += weapon.weaponLevel.ToString();
+
+        PlayerPrefs.SetString("SaveState", s);
     }
     public void LoadState(Scene s, LoadSceneMode mode)
     {
+        if (!PlayerPrefs.HasKey("SaveState"))
+            return;
+
+        string[] data = PlayerPrefs.GetString("SaveState").Split('|');
+
+        // Change player skin
+        pesos = int.Parse(data[1]);
+
+        // Experience
+        experience = int.Parse(data[2]);
+        if(GetCurrentLevel() !=1)
+            player.SetLevel(GetCurrentLevel());
+
+        // Change the weapon Level
+        weapon.SetWeaponLevel(int.Parse(data[3]));
+
         Debug.Log("LoadState");
+
+
     }
 
 }

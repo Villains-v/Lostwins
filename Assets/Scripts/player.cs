@@ -4,6 +4,13 @@ using UnityEngine;
 
 public class Player : Mover
 {
+    private SpriteRenderer SpriteRenderer;
+
+    protected override void Start()
+    {
+        base.Start();
+        SpriteRenderer = GetComponent<SpriteRenderer>();
+    }
     private void FixedUpdate()
     {
         float x = Input.GetAxisRaw("Horizontal");
@@ -11,4 +18,21 @@ public class Player : Mover
 
         UpdateMotor(new Vector3(x, y, 0));
     }
+
+    public void SwapSprite(int skinId)
+    {
+        SpriteRenderer.sprite = GameManger.instance.playerSprites[skinId];
+    }
+    public void OnLevelUp()
+    {
+        maxHitpoint++;
+        hitpoint = maxHitpoint;
+    }
+    public void SetLevel(int level)
+    {
+        for (int i = 0; i < level; i++)
+            OnLevelUp();
+    }
 }
+
+
