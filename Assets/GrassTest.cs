@@ -4,15 +4,5 @@ using UnityEngine;
 
 public class GrassTest : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    //잔디심기테스트입니당.
 }
