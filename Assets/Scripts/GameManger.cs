@@ -12,6 +12,8 @@ public class GameManger : MonoBehaviour
         if(GameManger.instance != null)
         {
             Destroy(gameObject);
+            Destroy(player.gameObject);
+            Destroy(floatingTextManager.gameObject);
             return;
         }
 
