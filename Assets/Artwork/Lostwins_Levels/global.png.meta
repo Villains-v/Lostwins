@@ -7,7 +7,19 @@ TextureImporter:
     second: 
   - first:
       213: -1965965269714156462
-    second: Ground_0
+    second: Red_Ground_0
+  - first:
+      213: -495735234126749927
+    second: Red_Ground_1
+  - first:
+      213: -7575690588476004958
+    second: Red_Ground_2
+  - first:
+      213: 7530553302836025607
+    second: Red_Ground_3
+  - first:
+      213: -8852230285008876594
+    second: Red_Ground_4
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -109,7 +121,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Ground_0
+      name: Red_Ground_0
       rect:
         serializedVersion: 2
         x: 48
@@ -117,7 +129,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -125,6 +137,90 @@ TextureImporter:
       bones: []
       spriteID: 254cee9d00d77b4e0800000000000000
       internalID: -1965965269714156462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Ground_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91fda3b5e6bce19f0800000000000000
+      internalID: -495735234126749927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Ground_2
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a52e992c8dbdd690800000000000000
+      internalID: -7575690588476004958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Ground_3
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7099fa19456e18860800000000000000
+      internalID: 7530553302836025607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Ground_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecb4718f47f862580800000000000000
+      internalID: -8852230285008876594
       vertices: []
       indices: 
       edges: []
