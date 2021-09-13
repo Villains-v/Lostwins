@@ -60,3 +60,9 @@ TagManager:
   - name: TEST
     uniqueID: 2428171613
     locked: 0
+  - name: Ground
+    uniqueID: 1268533947
+    locked: 0
+  - name: Detail
+    uniqueID: 3037175369
+    locked: 0
