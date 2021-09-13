@@ -66,3 +66,6 @@ TagManager:
   - name: Detail
     uniqueID: 3037175369
     locked: 0
+  - name: Buildings
+    uniqueID: 783297275
+    locked: 0
