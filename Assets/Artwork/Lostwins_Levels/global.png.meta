@@ -235,76 +235,76 @@ TextureImporter:
     second: BM_Building_6
   - first:
       213: 8760019557862112858
-    second: BM_Building_12
+    second: BM_Building_11
   - first:
       213: 6963315811724807596
-    second: BM_Building_18
+    second: BM_Building_10
   - first:
       213: 4266839261005468615
     second: BM_Building_24
   - first:
       213: -4417996464806020550
-    second: BM_Building_30
-  - first:
-      213: 4474297847028953426
-    second: BM_Building_0
-  - first:
-      213: 1717166510316193377
-    second: BM_Building_1
-  - first:
-      213: 2571214204822091336
-    second: BM_Building_2
-  - first:
-      213: 3317712013290384430
-    second: BM_Building_3
-  - first:
-      213: -8746659293988549039
-    second: BM_Building_4
-  - first:
-      213: 210247182586377017
-    second: BM_Building_5
-  - first:
-      213: -7690638541468214205
-    second: BM_Building_7
-  - first:
-      213: 7880610126890854185
     second: BM_Building_13
   - first:
-      213: -2584103771634793537
+      213: 4474297847028953426
+    second: BM_Building_6
+  - first:
+      213: 1717166510316193377
+    second: BM_Building_6
+  - first:
+      213: 2571214204822091336
+    second: BM_Building_6
+  - first:
+      213: 3317712013290384430
+    second: BM_Building_6
+  - first:
+      213: -8746659293988549039
+    second: BM_Building_6
+  - first:
+      213: 210247182586377017
+    second: BM_Building_11
+  - first:
+      213: -7690638541468214205
+    second: BM_Building_16
+  - first:
+      213: 7880610126890854185
     second: BM_Building_19
   - first:
+      213: -2584103771634793537
+    second: BM_Building_7
+  - first:
       213: 8098759035540490090
-    second: BM_Building_25
+    second: BM_Building_12
   - first:
       213: 7305965437783997664
-    second: BM_Building_31
+    second: BM_Building_17
   - first:
       213: 3086594613225089721
-    second: BM_Building_8
+    second: BM_Building_22
   - first:
       213: 5325763555082426940
-    second: BM_Building_14
+    second: BM_Building_8
   - first:
       213: -1953792422238120533
-    second: BM_Building_20
+    second: BM_Building_13
   - first:
       213: 2334016231098477704
-    second: BM_Building_26
+    second: BM_Building_18
   - first:
       213: -6896698177702418143
-    second: BM_Building_32
+    second: BM_Building_23
   - first:
       213: 1866102231635158555
-    second: BM_Building_33
+    second: BM_Building_9
   - first:
       213: -7366224163622074667
-    second: BM_Building_27
+    second: BM_Building_14
   - first:
       213: 1757184070320050518
-    second: BM_Building_21
+    second: BM_Building_19
   - first:
       213: -3108684437217726792
-    second: BM_Building_15
+    second: BM_Building_24
   - first:
       213: -8907923200327373210
     second: BM_Building_9
@@ -4564,13 +4564,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BM_Building_6
+      name: BM_Building_0
       rect:
         serializedVersion: 2
-        x: 208
-        y: 1072
-        width: 13
-        height: 13
+        x: 207
+        y: 1082
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4585,13 +4585,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BM_Building_12
+      name: BM_Building_5
       rect:
         serializedVersion: 2
-        x: 208
-        y: 1059
-        width: 13
-        height: 13
+        x: 207
+        y: 1066
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4606,13 +4606,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BM_Building_18
+      name: BM_Building_10
       rect:
         serializedVersion: 2
-        x: 208
-        y: 1046
-        width: 13
-        height: 13
+        x: 207
+        y: 1050
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4627,13 +4627,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BM_Building_24
+      name: BM_Building_15
       rect:
         serializedVersion: 2
-        x: 208
-        y: 1033
-        width: 13
-        height: 13
+        x: 207
+        y: 1034
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4648,13 +4648,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BM_Building_30
+      name: BM_Building_20
       rect:
         serializedVersion: 2
-        x: 208
-        y: 1020
-        width: 13
-        height: 13
+        x: 207
+        y: 1018
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4669,13 +4669,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BM_Building_0
+      name: BM_Building_1
       rect:
         serializedVersion: 2
-        x: 208
-        y: 1085
-        width: 13
-        height: 13
+        x: 223
+        y: 1082
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4690,13 +4690,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BM_Building_1
+      name: BM_Building_2
       rect:
         serializedVersion: 2
-        x: 221
-        y: 1085
-        width: 13
-        height: 13
+        x: 239
+        y: 1082
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4711,13 +4711,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BM_Building_2
+      name: BM_Building_3
       rect:
         serializedVersion: 2
-        x: 234
-        y: 1085
-        width: 13
-        height: 13
+        x: 255
+        y: 1082
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4732,13 +4732,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BM_Building_3
+      name: BM_Building_4
       rect:
         serializedVersion: 2
-        x: 247
-        y: 1085
-        width: 13
-        height: 13
+        x: 271
+        y: 1082
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4753,13 +4753,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BM_Building_4
+      name: BM_Building_6
       rect:
         serializedVersion: 2
-        x: 260
-        y: 1085
-        width: 13
-        height: 13
+        x: 223
+        y: 1066
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4774,13 +4774,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BM_Building_5
+      name: BM_Building_11
       rect:
         serializedVersion: 2
-        x: 273
-        y: 1085
-        width: 13
-        height: 13
+        x: 223
+        y: 1050
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4795,13 +4795,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BM_Building_7
+      name: BM_Building_16
       rect:
         serializedVersion: 2
-        x: 221
-        y: 1072
-        width: 13
-        height: 13
+        x: 223
+        y: 1034
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4816,13 +4816,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BM_Building_13
+      name: BM_Building_21
       rect:
         serializedVersion: 2
-        x: 221
-        y: 1059
-        width: 13
-        height: 13
+        x: 223
+        y: 1018
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4837,13 +4837,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BM_Building_19
+      name: BM_Building_7
       rect:
         serializedVersion: 2
-        x: 221
-        y: 1046
-        width: 13
-        height: 13
+        x: 239
+        y: 1066
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4858,13 +4858,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BM_Building_25
+      name: BM_Building_12
       rect:
         serializedVersion: 2
-        x: 221
-        y: 1033
-        width: 13
-        height: 13
+        x: 239
+        y: 1050
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4879,13 +4879,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BM_Building_31
+      name: BM_Building_17
       rect:
         serializedVersion: 2
-        x: 221
-        y: 1020
-        width: 13
-        height: 13
+        x: 239
+        y: 1034
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4900,13 +4900,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BM_Building_8
+      name: BM_Building_22
       rect:
         serializedVersion: 2
-        x: 234
-        y: 1072
-        width: 13
-        height: 13
+        x: 239
+        y: 1018
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4921,13 +4921,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BM_Building_14
+      name: BM_Building_8
       rect:
         serializedVersion: 2
-        x: 234
-        y: 1059
-        width: 13
-        height: 13
+        x: 255
+        y: 1066
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4942,13 +4942,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BM_Building_20
+      name: BM_Building_13
       rect:
         serializedVersion: 2
-        x: 234
-        y: 1046
-        width: 13
-        height: 13
+        x: 255
+        y: 1050
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4963,13 +4963,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BM_Building_26
+      name: BM_Building_18
       rect:
         serializedVersion: 2
-        x: 234
-        y: 1033
-        width: 13
-        height: 13
+        x: 255
+        y: 1034
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4984,13 +4984,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BM_Building_32
+      name: BM_Building_23
       rect:
         serializedVersion: 2
-        x: 234
-        y: 1020
-        width: 13
-        height: 13
+        x: 255
+        y: 1018
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5005,13 +5005,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BM_Building_33
+      name: BM_Building_9
       rect:
         serializedVersion: 2
-        x: 247
-        y: 1020
-        width: 13
-        height: 13
+        x: 271
+        y: 1066
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5026,13 +5026,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BM_Building_27
+      name: BM_Building_14
       rect:
         serializedVersion: 2
-        x: 247
-        y: 1033
-        width: 13
-        height: 13
+        x: 271
+        y: 1050
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5047,13 +5047,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BM_Building_21
+      name: BM_Building_19
       rect:
         serializedVersion: 2
-        x: 247
-        y: 1046
-        width: 13
-        height: 13
+        x: 271
+        y: 1034
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5068,13 +5068,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BM_Building_15
+      name: BM_Building_24
       rect:
         serializedVersion: 2
-        x: 247
-        y: 1059
-        width: 13
-        height: 13
+        x: 271
+        y: 1018
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5084,237 +5084,6 @@ TextureImporter:
       bones: []
       spriteID: 8be2ad099fbbbd4d0800000000000000
       internalID: -3108684437217726792
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BM_Building_9
-      rect:
-        serializedVersion: 2
-        x: 247
-        y: 1072
-        width: 13
-        height: 13
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 66ea606ab03b06480800000000000000
-      internalID: -8907923200327373210
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BM_Building_10
-      rect:
-        serializedVersion: 2
-        x: 260
-        y: 1072
-        width: 13
-        height: 13
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 455c519bab6f76520800000000000000
-      internalID: 2695394183834092884
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BM_Building_16
-      rect:
-        serializedVersion: 2
-        x: 260
-        y: 1059
-        width: 13
-        height: 13
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 98ba86cb76b4deaa0800000000000000
-      internalID: -6130160608866686071
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BM_Building_22
-      rect:
-        serializedVersion: 2
-        x: 260
-        y: 1046
-        width: 13
-        height: 13
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 170ee13219f248670800000000000000
-      internalID: 8540003093807292529
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BM_Building_28
-      rect:
-        serializedVersion: 2
-        x: 260
-        y: 1033
-        width: 13
-        height: 13
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 139622102b9ef1ba0800000000000000
-      internalID: -6115912818213361359
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BM_Building_34
-      rect:
-        serializedVersion: 2
-        x: 260
-        y: 1020
-        width: 13
-        height: 13
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dd6242b20ef32c550800000000000000
-      internalID: 6179571870734755549
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BM_Building_35
-      rect:
-        serializedVersion: 2
-        x: 273
-        y: 1020
-        width: 13
-        height: 13
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 75dced57da5aa1150800000000000000
-      internalID: 5844165630892100951
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BM_Building_29
-      rect:
-        serializedVersion: 2
-        x: 273
-        y: 1033
-        width: 13
-        height: 13
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 748e4e42e6e21eac0800000000000000
-      internalID: -3827727157687949241
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BM_Building_23
-      rect:
-        serializedVersion: 2
-        x: 273
-        y: 1046
-        width: 13
-        height: 13
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 54bc6fa9dd91d4740800000000000000
-      internalID: 5137791189477935941
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BM_Building_17
-      rect:
-        serializedVersion: 2
-        x: 273
-        y: 1059
-        width: 13
-        height: 13
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 411329763e77781c0800000000000000
-      internalID: -4501497483954605804
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BM_Building_11
-      rect:
-        serializedVersion: 2
-        x: 273
-        y: 1072
-        width: 13
-        height: 13
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5e142d634957df180800000000000000
-      internalID: -9079971994273693211
       vertices: []
       indices: 
       edges: []
