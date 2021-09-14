@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: BM_Building_10
+  m_Name: Road_V_3
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 2797225911108084560, guid: 94a04c1fcfc9337439ddaf0b47e08c57, type: 3}
+  m_Sprite: {fileID: -6252601974677097267, guid: 94a04c1fcfc9337439ddaf0b47e08c57, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
