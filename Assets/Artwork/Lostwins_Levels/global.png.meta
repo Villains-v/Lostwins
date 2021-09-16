@@ -487,7 +487,7 @@ TextureImporter:
     second: GS_Building_1
   - first:
       213: -3899225583661942648
-    second: PS_Building_0
+    second: V_Timber_Bridge_0
   - first:
       213: 7174270782309479528
     second: GS_Building_2
@@ -532,7 +532,7 @@ TextureImporter:
     second: GS_Building_1
   - first:
       213: -2733825623091677364
-    second: PS_Building_0
+    second: V_Timber_Bridge_0
   - first:
       213: 8734370990708954247
     second: GS_Building_2
@@ -565,7 +565,7 @@ TextureImporter:
     second: GS_Building_1
   - first:
       213: 2147526978367232566
-    second: PS_Building_0
+    second: V_Timber_Bridge_0
   - first:
       213: -2513635298494830146
     second: GS_Building_2
@@ -1384,10 +1384,10 @@ TextureImporter:
     second: PH_Building_29
   - first:
       213: 6993063421502900977
-    second: global_501
+    second: V_Timber_Bridge_1
   - first:
       213: 1551933498118431095
-    second: global_502
+    second: H_Timber_Bridge_0
   - first:
       213: -194114683334258562
     second: DG_Tree_0
@@ -1583,6 +1583,66 @@ TextureImporter:
   - first:
       213: -3604495366705167244
     second: GD_Building_0
+  - first:
+      213: 1042500831999420468
+    second: H_Timber_Bridge_1
+  - first:
+      213: -7595286460758166618
+    second: Fence_1
+  - first:
+      213: 2633811527537066253
+    second: Fence_2
+  - first:
+      213: 7249410801274651255
+    second: Fence_3
+  - first:
+      213: 8084099959944390517
+    second: Fence_0
+  - first:
+      213: -1472915372014933310
+    second: Fence_7
+  - first:
+      213: 2260089510731197664
+    second: Fence_8
+  - first:
+      213: 5255206271816565382
+    second: Fence_9
+  - first:
+      213: 3242466517650150954
+    second: Fence_6
+  - first:
+      213: 8300381869857671093
+    second: Fence_5
+  - first:
+      213: 2669196834055509401
+    second: Fence_4
+  - first:
+      213: 6194298937037832730
+    second: Gate_0
+  - first:
+      213: -6046087342921039446
+    second: Gate_1
+  - first:
+      213: 287146998872003641
+    second: Gate_2
+  - first:
+      213: -4580096911411556283
+    second: Stepping_Stone_4
+  - first:
+      213: 8763845429967013677
+    second: Stepping_Stone_5
+  - first:
+      213: -5928854767829108661
+    second: Stepping_Stone_3
+  - first:
+      213: 8665002238004492877
+    second: Stepping_Stone_1
+  - first:
+      213: -8503902745234845748
+    second: Stepping_Stone_0
+  - first:
+      213: 169711314327768024
+    second: Stepping_Stone_2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -13523,6 +13583,489 @@ TextureImporter:
       bones: []
       spriteID: da7c5d3009b17eca0800000000000000
       internalID: -5987786874212202579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V_Timber_Bridge_0
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 757
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63a9523a86c8dcd10800000000000000
+      internalID: 2147526978367232566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V_Timber_Bridge_1
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 741
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fa457a812a5c0160800000000000000
+      internalID: 6993063421502900977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H_Timber_Bridge_0
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 752
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 771e0664b43998510800000000000000
+      internalID: 1551933498118431095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H_Timber_Bridge_1
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 752
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 438ef59bbf4b77e00800000000000000
+      internalID: 1042500831999420468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fence_1
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 768
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a3fc2b943f189690800000000000000
+      internalID: -7595286460758166618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fence_2
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 768
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d010d2831ad2d8420800000000000000
+      internalID: 2633811527537066253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fence_3
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 752
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7720bd8f6b41b9460800000000000000
+      internalID: 7249410801274651255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fence_0
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 752
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5772c39051e703070800000000000000
+      internalID: 8084099959944390517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fence_7
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 736
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ca66d2e5472f8be0800000000000000
+      internalID: -1472915372014933310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fence_8
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 736
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ec28bf7f637d5f10800000000000000
+      internalID: 2260089510731197664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fence_9
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 736
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 682080dc24e3ee840800000000000000
+      internalID: 5255206271816565382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fence_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 736
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2692a45e1e8ffc20800000000000000
+      internalID: 3242466517650150954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fence_5
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 752
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b785f45551e03370800000000000000
+      internalID: 8300381869857671093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fence_4
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 995d979e064ea0520800000000000000
+      internalID: 2669196834055509401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate_0
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 720
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1248be701296f550800000000000000
+      internalID: 6194298937037832730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate_1
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 720
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa1c43c589bf71ca0800000000000000
+      internalID: -6046087342921039446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate_2
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 720
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 934d5129ca62cf300800000000000000
+      internalID: 287146998872003641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stepping_Stone_4
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 736
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 540537e102a3070c0800000000000000
+      internalID: -4580096911411556283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stepping_Stone_5
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 736
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d274d975cfe6f9970800000000000000
+      internalID: 8763845429967013677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stepping_Stone_3
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 752
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b483aa6400a78bda0800000000000000
+      internalID: -5928854767829108661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stepping_Stone_1
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 768
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4af83650a5404870800000000000000
+      internalID: 8665002238004492877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stepping_Stone_0
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 768
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccfcec142811cf980800000000000000
+      internalID: -8503902745234845748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stepping_Stone_2
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 752
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8db0fdc8a8fea5200800000000000000
+      internalID: 169711314327768024
       vertices: []
       indices: 
       edges: []
