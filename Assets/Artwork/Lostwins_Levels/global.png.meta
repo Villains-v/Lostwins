@@ -1643,6 +1643,18 @@ TextureImporter:
   - first:
       213: 169711314327768024
     second: Stepping_Stone_2
+  - first:
+      213: -8748298330400324409
+    second: V_WoodBridge_Full
+  - first:
+      213: -8596583809213252874
+    second: wood_deck_0
+  - first:
+      213: 1191673706665376414
+    second: wood_deck_1
+  - first:
+      213: 4416110579861230254
+    second: wood_deck_2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -14066,6 +14078,90 @@ TextureImporter:
       bones: []
       spriteID: 8db0fdc8a8fea5200800000000000000
       internalID: 169711314327768024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V_WoodBridge_Full
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 749
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c4885bd40dc79680800000000000000
+      internalID: -8748298330400324409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wood_deck_0
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 1104
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fa38f9729cc2b880800000000000000
+      internalID: -8596583809213252874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wood_deck_1
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1104
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9a76f52ceca98010800000000000000
+      internalID: 1191673706665376414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wood_deck_2
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 1104
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea21971cc2d294d30800000000000000
+      internalID: 4416110579861230254
       vertices: []
       indices: 
       edges: []

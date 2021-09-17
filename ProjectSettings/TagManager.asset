@@ -42,36 +42,18 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Floor
-    uniqueID: 1632786631
-    locked: 0
-  - name: Actor
-    uniqueID: 3577144005
-    locked: 0
-  - name: Wall
-    uniqueID: 3514636687
-    locked: 0
-  - name: Interactable
-    uniqueID: 2757549853
-    locked: 0
-  - name: Weapon
-    uniqueID: 2229172199
-    locked: 0
-  - name: TEST
-    uniqueID: 2428171613
+  - name: Water
+    uniqueID: 1652002531
     locked: 0
   - name: Ground
-    uniqueID: 1268533947
+    uniqueID: 3462567663
     locked: 0
-  - name: Detail
-    uniqueID: 3037175369
+  - name: Ground Detail
+    uniqueID: 516684449
     locked: 0
-  - name: Buildings
-    uniqueID: 783297275
+  - name: Vegetation
+    uniqueID: 264755569
     locked: 0
-  - name: Road
-    uniqueID: 619988603
-    locked: 0
-  - name: TreeFlowerGrass
-    uniqueID: 648173027
+  - name: Building
+    uniqueID: 2360834261
     locked: 0
