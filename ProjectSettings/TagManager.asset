@@ -57,3 +57,6 @@ TagManager:
   - name: Buildings
     uniqueID: 264755569
     locked: 0
+  - name: Collision
+    uniqueID: 1006440931
+    locked: 0
