@@ -43864,7 +43864,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c384e717ffbd8b4db52bdfe41fb9e35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 934961439}
+  player: {fileID: 934961439}
   target: {fileID: 934961441}
   smoothSpeed: 0.125
 --- !u!1 &2067777156
