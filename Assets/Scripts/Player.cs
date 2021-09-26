@@ -5,12 +5,9 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     private Vector3 movement;
-
-   
     private BoxCollider2D boxCollider;
-    public Vector2 Speed = new Vector2(1.0f, 0.75f);
+    public Vector2 speed = new Vector2(1.0f, 0.75f);
 
-     
     //통과 불가능 한 레이어를 만들기 위한 선언
     private RaycastHit2D hit;
 
@@ -22,10 +19,10 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        float x = Input.GetAxisRaw("Horizontal");
-        float y = Input.GetAxisRaw("Vertical");
+        float x = Input.GetAxisRaw("Horizontal") * speed.x;
+        float y = Input.GetAxisRaw("Vertical") * speed.y;
 
-        movement = new Vector3(Speed.x * x,Speed.y * y , 0);
+        movement = new Vector3(x, y, 0);
 
         
         if (movement.x > 0)

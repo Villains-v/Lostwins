@@ -22,6 +22,8 @@ public class Portal : MonoBehaviour
             PortalControl.portalControlInstance.DisableCollider("blue");
             PortalControl.portalControlInstance.CreateClone("atblue");
         }
+
+        Debug.Log("ontriggerenter");
     }
 
     private void OnTriggerExit2D(Collider2D collision)

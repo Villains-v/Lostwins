@@ -5,29 +5,29 @@ using UnityEngine;
 public class PortalControl : MonoBehaviour
 {
     public static PortalControl portalControlInstance;
-    private GameObject bluePortal, orangePortal;
-    private Transform bluePortalSpawnPoint, orangePortalSpawnPoint;
-    private Collider2D bluePortalCollider, orangePortalcollider;
+    //public GameObject bluePortal, orangePortal;
+    public Transform bluePortalSpawnPoint, orangePortalSpawnPoint;
+    public BoxCollider2D bluePortalCollider, orangePortalcollider;
 
-    private GameObject Clone;
+    public GameObject clone;
 
     private void Start()
     {
         portalControlInstance = this;
-        bluePortalCollider = bluePortal.GetComponent<Collider2D>();
-        orangePortalcollider = orangePortal.GetComponent<Collider2D>();
+        //bluePortalCollider = bluePortal.GetComponent<Collider2D>();
+        //orangePortalcollider = orangePortal.GetComponent<Collider2D>();
     }
 
     public void CreateClone(string whereToCreate)
     {
         if (whereToCreate == "atblue")
         {
-            var instantiatedClone = Instantiate(Clone, bluePortalSpawnPoint.position, Quaternion.identity);
+            var instantiatedClone = Instantiate(clone, bluePortalSpawnPoint.position, Quaternion.identity);
             instantiatedClone.gameObject.name = "Clone";
         }
         else if(whereToCreate == "atorange")
         {
-            var instantiatedClone = Instantiate(Clone, orangePortalSpawnPoint.position, Quaternion.identity);
+            var instantiatedClone = Instantiate(clone, orangePortalSpawnPoint.position, Quaternion.identity);
             instantiatedClone.gameObject.name = "Clone";
         }
     }

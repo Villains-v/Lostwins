@@ -33090,6 +33090,7 @@ GameObject:
   - component: {fileID: 934961440}
   - component: {fileID: 934961442}
   - component: {fileID: 934961443}
+  - component: {fileID: 934961444}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -33174,7 +33175,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f226af9bc810ebf41aae8f2f62a64376, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: {x: 1, y: 0.75}
+  speed: {x: 1, y: 0.75}
 --- !u!61 &934961443
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -33201,6 +33202,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.10191643, y: 0.12363371}
   m_EdgeRadius: 0
+--- !u!50 &934961444
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 934961439}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &943500891
 GameObject:
   m_ObjectHideFlags: 0
@@ -34149,10 +34171,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1038629649}
   - component: {fileID: 1038629648}
-  - component: {fileID: 1038629647}
   - component: {fileID: 1038629646}
   - component: {fileID: 1038629645}
-  - component: {fileID: 1038629650}
   m_Layer: 0
   m_Name: BluePortal
   m_TagString: Portal
@@ -34182,7 +34202,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -34198,18 +34218,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.16, y: 0.16}
   m_EdgeRadius: 0
---- !u!114 &1038629647
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1038629644}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ca75c77087bcfc545ae96687914cf8b7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!212 &1038629648
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -34276,27 +34284,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!50 &1038629650
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1038629644}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!1001 &1076625256
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -43165,6 +43152,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca75c77087bcfc545ae96687914cf8b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bluePortalSpawnPoint: {fileID: 1921382474}
+  orangePortalSpawnPoint: {fileID: 2142569153}
+  bluePortalCollider: {fileID: 1038629646}
+  orangePortalcollider: {fileID: 1811878455}
+  clone: {fileID: 6239472355455182581, guid: a6add277669a31e4aaea67361f160673, type: 3}
 --- !u!4 &1776042047
 Transform:
   m_ObjectHideFlags: 0
@@ -43189,7 +43181,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1811878454}
   - component: {fileID: 1811878453}
-  - component: {fileID: 1811878452}
   - component: {fileID: 1811878455}
   - component: {fileID: 1811878456}
   m_Layer: 0
@@ -43199,18 +43190,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1811878452
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1811878451}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ca75c77087bcfc545ae96687914cf8b7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!212 &1811878453
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -43287,7 +43266,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
