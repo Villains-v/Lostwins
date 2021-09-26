@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Fighter
+  - Portal
   layers:
   - Default
   - TransparentFX
@@ -51,15 +52,15 @@ TagManager:
   - name: Ground Detail
     uniqueID: 516684449
     locked: 0
-  - name: Vegetation
-    uniqueID: 2360834261
-    locked: 0
-  - name: Buildings
-    uniqueID: 264755569
-    locked: 0
   - name: Collision
     uniqueID: 1006440931
     locked: 0
   - name: Player
     uniqueID: 179865661
+    locked: 0
+  - name: Vegetation
+    uniqueID: 2360834261
+    locked: 0
+  - name: Buildings
+    uniqueID: 264755569
     locked: 0
