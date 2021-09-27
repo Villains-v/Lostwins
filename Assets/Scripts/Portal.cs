@@ -9,8 +9,8 @@ public class Portal : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-       /* enterRigidbody = collision.gameObject.GetComponent<Rigidbody2D>();
-        enterVelocity = enterRigidbody.velocity.y;
+        enterRigidbody = collision.gameObject.GetComponent<Rigidbody2D>();
+        enterVelocity = enterRigidbody.velocity.x;
 
         if (gameObject.name == "BluePortal")
         {
@@ -22,27 +22,11 @@ public class Portal : MonoBehaviour
             PortalControl.portalControlInstance.DisableCollider("blue");
             PortalControl.portalControlInstance.CreateClone("atblue");
         }
-
-        Debug.Log("ontriggerenter");*/
-
-        if(collision != null)
-        {
-            if (gameObject.name == "BluePortal")
-            {
-                PortalControl.portalControlInstance.DisableCollider("orange");
-                PortalControl.portalControlInstance.NewPos("atorange");
-            }
-            else if (gameObject.name == "OrangePortal")
-            {
-                PortalControl.portalControlInstance.DisableCollider("blue");
-                PortalControl.portalControlInstance.NewPos("atblue");
-            }
-        }
     }
 
-    /*private void OnTriggerExit2D(Collider2D collision)
+    private void OnTriggerExit2D(Collider2D collision)
     {
-        exitVelocity = enterRigidbody.velocity.y;
+        exitVelocity = enterRigidbody.velocity.x;
 
         if (enterVelocity != exitVelocity)
         {
@@ -52,7 +36,7 @@ public class Portal : MonoBehaviour
         {
             Destroy(collision.gameObject);
             PortalControl.portalControlInstance.EnableColliders();
-            GameObject.Find("Clone").name = "Character";
+            GameObject.Find("Clone").name = "Player";
         }
-    }*/
+    }
 }

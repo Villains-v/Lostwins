@@ -33186,7 +33186,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.00039696693, y: -0.033183143}
@@ -34282,7 +34282,7 @@ Transform:
   m_Children:
   - {fileID: 1921382474}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1076625256
 PrefabInstance:
@@ -43157,7 +43157,7 @@ MonoBehaviour:
   orangePortalSpawnPoint: {fileID: 2142569153}
   bluePortalCollider: {fileID: 1038629646}
   orangePortalcollider: {fileID: 1811878455}
-  clone: {fileID: 6239472355455182581, guid: a6add277669a31e4aaea67361f160673, type: 3}
+  clone: {fileID: 934961439}
 --- !u!4 &1776042047
 Transform:
   m_ObjectHideFlags: 0
@@ -43255,7 +43255,7 @@ Transform:
   m_Children:
   - {fileID: 2142569153}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1811878455
 BoxCollider2D:
