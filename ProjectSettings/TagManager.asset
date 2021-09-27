@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Fighter
   - Portal
+  - FadeIn
+  - FadeOut
   layers:
   - Default
   - TransparentFX
@@ -63,4 +65,7 @@ TagManager:
     locked: 0
   - name: Buildings
     uniqueID: 264755569
+    locked: 0
+  - name: Fadeout
+    uniqueID: 1194833329
     locked: 0
