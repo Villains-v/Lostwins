@@ -5,7 +5,7 @@ using UnityEngine;
 public class PortalControl : MonoBehaviour
 {
     public static PortalControl portalControlInstance;
-    //public GameObject bluePortal, orangePortal;
+    public Transform player;
     public Transform bluePortalSpawnPoint, orangePortalSpawnPoint;
     public BoxCollider2D bluePortalCollider, orangePortalcollider;
 
@@ -14,8 +14,6 @@ public class PortalControl : MonoBehaviour
     private void Start()
     {
         portalControlInstance = this;
-        //bluePortalCollider = bluePortal.GetComponent<Collider2D>();
-        //orangePortalcollider = orangePortal.GetComponent<Collider2D>();
     }
 
     public void CreateClone(string whereToCreate)
@@ -29,6 +27,18 @@ public class PortalControl : MonoBehaviour
         {
             var instantiatedClone = Instantiate(clone, orangePortalSpawnPoint.position, Quaternion.identity);
             instantiatedClone.gameObject.name = "Clone";
+        }
+    }
+
+    public void NewPos(string whereToCreate)
+    {
+        if (whereToCreate == "atblue")
+        {
+            player.position = bluePortalSpawnPoint.position;
+        }
+        else if (whereToCreate == "atorange")
+        {
+            player.position = orangePortalSpawnPoint.position;
         }
     }
 

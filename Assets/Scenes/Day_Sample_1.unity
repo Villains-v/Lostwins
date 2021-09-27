@@ -43152,6 +43152,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca75c77087bcfc545ae96687914cf8b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 934961441}
   bluePortalSpawnPoint: {fileID: 1921382474}
   orangePortalSpawnPoint: {fileID: 2142569153}
   bluePortalCollider: {fileID: 1038629646}
