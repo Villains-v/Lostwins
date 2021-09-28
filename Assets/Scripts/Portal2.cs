@@ -10,6 +10,7 @@ public class Portal2 : MonoBehaviour
     {
         if (!obstruct)
         {
+            PortalControl2._instance.fadeAnim.Play("FadeOut");
             if (gameObject == PortalControl2._instance.bluePortal.gameObject)
             {
                 StartCoroutine(PortalControl2._instance.TeleportToOrange());
@@ -25,6 +26,7 @@ public class Portal2 : MonoBehaviour
     {
         if (obstruct)
         {
+            
             if (gameObject.name == "BluePortal")
             {
                 PortalControl2._instance.BlueTriggerOn();
