@@ -11,11 +11,11 @@ public class Portal2 : MonoBehaviour
         if (!obstruct)
         {
             PortalControl2._instance.fadeAnim.Play("FadeOut");
-            if (gameObject == PortalControl2._instance.bluePortal.gameObject)
+            if (gameObject == PortalControl2._instance.InteriorPortal.gameObject)
             {
                 StartCoroutine(PortalControl2._instance.TeleportToOrange());
             }
-            else if (gameObject == PortalControl2._instance.orangePortal.gameObject)
+            else if (gameObject == PortalControl2._instance.BuildingPortal.gameObject)
             {
                 StartCoroutine(PortalControl2._instance.TeleportToBlue());
             }
@@ -27,13 +27,13 @@ public class Portal2 : MonoBehaviour
         if (obstruct)
         {
             
-            if (gameObject.name == "BluePortal")
+            if (gameObject.name == "BuildingPortal")
             {
-                PortalControl2._instance.BlueTriggerOn();
+                PortalControl2._instance.BuildingTriggerOn();
             }
-            else if (gameObject.name == "OrangePortal")
+            else if (gameObject.name == "InteriorPortal")
             {
-                PortalControl2._instance.OrangeTriggerOn();
+                PortalControl2._instance.InteriorTriggerOn();
             }
         }
     }

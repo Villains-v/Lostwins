@@ -35810,7 +35810,7 @@ GameObject:
   - component: {fileID: 1038629646}
   - component: {fileID: 1038629645}
   m_Layer: 0
-  m_Name: BluePortal
+  m_Name: BuildingPortal
   m_TagString: Portal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -44921,8 +44921,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 934961441}
-  orangePortal: {fileID: 1811878455}
-  bluePortal: {fileID: 1038629646}
+  BuildingPortal: {fileID: 1038629646}
+  InteriorPortal: {fileID: 1811878455}
   fadeAnim: {fileID: 2146121968}
 --- !u!1 &1811878451
 GameObject:
@@ -44937,7 +44937,7 @@ GameObject:
   - component: {fileID: 1811878455}
   - component: {fileID: 1811878452}
   m_Layer: 0
-  m_Name: OrangePortal
+  m_Name: InteriorPortal
   m_TagString: Portal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

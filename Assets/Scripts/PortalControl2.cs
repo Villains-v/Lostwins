@@ -8,7 +8,7 @@ public class PortalControl2 : MonoBehaviour
     public static PortalControl2 _instance;
 
     public Transform player;
-    public Collider2D orangePortal, bluePortal;
+    public Collider2D BuildingPortal, InteriorPortal;
     public Animator fadeAnim;
 
     // Start is called before the first frame update
@@ -20,26 +20,26 @@ public class PortalControl2 : MonoBehaviour
     public IEnumerator TeleportToOrange()
     {
         yield return new WaitForSeconds(0.5f);
-        player.position = orangePortal.transform.position;
-        orangePortal.GetComponent<Portal2>().obstruct = true;
+        player.position = BuildingPortal.transform.position;
+        BuildingPortal.GetComponent<Portal2>().obstruct = true;
         PortalControl2._instance.fadeAnim.Play("FadeIn");
     }
 
     public IEnumerator TeleportToBlue()
     {
         yield return new WaitForSeconds(0.5f);
-        player.position = bluePortal.transform.position;
-        bluePortal.GetComponent<Portal2>().obstruct = true;
+        player.position = InteriorPortal.transform.position;
+        InteriorPortal.GetComponent<Portal2>().obstruct = true;
         PortalControl2._instance.fadeAnim.Play("FadeIn");
     }
 
-    public void OrangeTriggerOn()
+    public void InteriorTriggerOn()
     {
-        orangePortal.GetComponent<Portal2>().obstruct = false;
+        BuildingPortal.GetComponent<Portal2>().obstruct = false;
     }
 
-    public void BlueTriggerOn()
+    public void BuildingTriggerOn()
     {
-        bluePortal.GetComponent<Portal2>().obstruct = false;
+        InteriorPortal.GetComponent<Portal2>().obstruct = false;
     }
 }
