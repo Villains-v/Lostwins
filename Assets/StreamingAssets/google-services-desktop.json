@@ -1,18 +1,27 @@
 {
   "project_info": {
     "project_number": "214243778387",
+    "firebase_url": "https://lostwins-backend-default-rtdb.firebaseio.com",
     "project_id": "lostwins-backend",
     "storage_bucket": "lostwins-backend.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:214243778387:android:928668947a209bffdb4ba6",
+        "mobilesdk_app_id": "1:214243778387:android:54fb5e26f1739eabdb4ba6",
         "android_client_info": {
-          "package_name": "com.Villians.Lostwins"
+          "package_name": "com.Villains.Lostwins"
         }
       },
       "oauth_client": [
+        {
+          "client_id": "214243778387-b4nq6bduhl0h62v8j1qp732it6iljmog.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.Villains.Lostwins",
+            "certificate_hash": "606190d9f477f46bdf0dfcaaa1fc83935895897b"
+          }
+        },
         {
           "client_id": "214243778387-s5g9uhgs6hkt8keik1bg3rbhhnmhqc0h.apps.googleusercontent.com",
           "client_type": 3
