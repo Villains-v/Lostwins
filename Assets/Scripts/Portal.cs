@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Portal2 : MonoBehaviour
+public class Portal : MonoBehaviour
 {
     [HideInInspector] public bool obstruct;
 
@@ -10,14 +10,14 @@ public class Portal2 : MonoBehaviour
     {
         if (!obstruct)
         {
-            PortalControl2._instance.fadeAnim.Play("FadeOut");
-            if (gameObject == PortalControl2._instance.InteriorPortal.gameObject)
+            PortalControl._instance.fadeAnim.Play("FadeOut");
+            if (gameObject == PortalControl._instance.InteriorPortal.gameObject)
             {
-                StartCoroutine(PortalControl2._instance.TeleportToOrange());
+                StartCoroutine(PortalControl._instance.TeleportToOrange());
             }
-            else if (gameObject == PortalControl2._instance.BuildingPortal.gameObject)
+            else if (gameObject == PortalControl._instance.BuildingPortal.gameObject)
             {
-                StartCoroutine(PortalControl2._instance.TeleportToBlue());
+                StartCoroutine(PortalControl._instance.TeleportToBlue());
             }
         }
     }
@@ -29,11 +29,11 @@ public class Portal2 : MonoBehaviour
             
             if (gameObject.name == "BuildingPortal")
             {
-                PortalControl2._instance.BuildingTriggerOn();
+                PortalControl._instance.BuildingTriggerOn();
             }
             else if (gameObject.name == "InteriorPortal")
             {
-                PortalControl2._instance.InteriorTriggerOn();
+                PortalControl._instance.InteriorTriggerOn();
             }
         }
     }

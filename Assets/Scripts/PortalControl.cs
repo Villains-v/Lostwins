@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class PortalControl2 : MonoBehaviour
+public class PortalControl : MonoBehaviour
 {
-    public static PortalControl2 _instance;
+    public static PortalControl _instance;
 
     public Transform player;
     public Collider2D BuildingPortal, InteriorPortal;
@@ -21,25 +21,25 @@ public class PortalControl2 : MonoBehaviour
     {
         yield return new WaitForSeconds(0.5f);
         player.position = BuildingPortal.transform.position;
-        BuildingPortal.GetComponent<Portal2>().obstruct = true;
-        PortalControl2._instance.fadeAnim.Play("FadeIn");
+        BuildingPortal.GetComponent<Portal>().obstruct = true;
+        PortalControl._instance.fadeAnim.Play("FadeIn");
     }
 
     public IEnumerator TeleportToBlue()
     {
         yield return new WaitForSeconds(0.5f);
         player.position = InteriorPortal.transform.position;
-        InteriorPortal.GetComponent<Portal2>().obstruct = true;
-        PortalControl2._instance.fadeAnim.Play("FadeIn");
+        InteriorPortal.GetComponent<Portal>().obstruct = true;
+        PortalControl._instance.fadeAnim.Play("FadeIn");
     }
 
     public void InteriorTriggerOn()
     {
-        BuildingPortal.GetComponent<Portal2>().obstruct = false;
+        BuildingPortal.GetComponent<Portal>().obstruct = false;
     }
 
     public void BuildingTriggerOn()
     {
-        InteriorPortal.GetComponent<Portal2>().obstruct = false;
+        InteriorPortal.GetComponent<Portal>().obstruct = false;
     }
 }
