@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5176294947321921275}
   - component: {fileID: 6537803747299605172}
   - component: {fileID: 2759864935004978382}
+  - component: {fileID: -4199201195833909792}
   m_Layer: 0
   m_Name: Chesspiece
   m_TagString: Untagged
@@ -71,7 +72,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: fc492721e9fab3b4898f961193263a6d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -109,3 +110,29 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.2}
   m_EdgeRadius: 0
+--- !u!114 &-4199201195833909792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7164456724381516558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b547c3b8cc09994092e7f025cd76f8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 0}
+  movePlate: {fileID: 2094772649677943174, guid: 2c08b1cfc450af843897393f994527f5, type: 3}
+  black_queen: {fileID: 21300000, guid: 089efdbe129ac8e4188c358195d3c52e, type: 3}
+  black_knight: {fileID: 21300000, guid: 9781a62569349dc49a8eebd5a2b4f917, type: 3}
+  black_bishop: {fileID: 21300000, guid: 997e165edf92e6a46aa55825199a2908, type: 3}
+  black_king: {fileID: 21300000, guid: fc492721e9fab3b4898f961193263a6d, type: 3}
+  black_rook: {fileID: 21300000, guid: 9cd6fc6b8410697459009dd86225cee9, type: 3}
+  black_pawn: {fileID: 21300000, guid: 1c90d15fc00032c43b627bbdd3bcece9, type: 3}
+  white_queen: {fileID: 21300000, guid: b34d5fc38a634c94f994b06976a69421, type: 3}
+  white_knight: {fileID: 21300000, guid: e80e777059f005c43b9b6b40e46f0f52, type: 3}
+  white_bishop: {fileID: 21300000, guid: 045c1f3f5668dab41aa0707c04e71c7c, type: 3}
+  white_king: {fileID: 21300000, guid: d46c5361d80101644aea687218258d52, type: 3}
+  white_rook: {fileID: 21300000, guid: 3299408cb9be3cf4eb35e2724e577a18, type: 3}
+  white_pawn: {fileID: 21300000, guid: 9a45a86e13eeed640967bfd29f9ee10e, type: 3}

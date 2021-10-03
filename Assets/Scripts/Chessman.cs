@@ -28,19 +28,19 @@ public class Chessman : MonoBehaviour
 
         switch (this.name)
         {
-            case "black_queen": this.GetComponent<SpriteRenderer>().sprite = black_queen; break;
-            case "black_knight": this.GetComponent<SpriteRenderer>().sprite = black_knight; break;
-            case "black_bishop": this.GetComponent<SpriteRenderer>().sprite = black_bishop; break;
-            case "black_king": this.GetComponent<SpriteRenderer>().sprite = black_king; break;
-            case "black_rook": this.GetComponent<SpriteRenderer>().sprite = black_rook; break;
-            case "black_pawn": this.GetComponent<SpriteRenderer>().sprite = black_pawn; break;
+            case "black_queen": this.GetComponent<SpriteRenderer>().sprite = black_queen; player = "black"; break;
+            case "black_knight": this.GetComponent<SpriteRenderer>().sprite = black_knight; player = "black"; break;
+            case "black_bishop": this.GetComponent<SpriteRenderer>().sprite = black_bishop; player = "black"; break;
+            case "black_king": this.GetComponent<SpriteRenderer>().sprite = black_king; player = "black"; break;
+            case "black_rook": this.GetComponent<SpriteRenderer>().sprite = black_rook; player = "black"; break;
+            case "black_pawn": this.GetComponent<SpriteRenderer>().sprite = black_pawn; player = "black"; break;
 
-            case "white_queen": this.GetComponent<SpriteRenderer>().sprite = white_queen; break;
-            case "white_knight": this.GetComponent<SpriteRenderer>().sprite = white_knight; break;
-            case "white_bishop": this.GetComponent<SpriteRenderer>().sprite = white_bishop; break;
-            case "white_king": this.GetComponent<SpriteRenderer>().sprite = white_king; break;
-            case "white_rook": this.GetComponent<SpriteRenderer>().sprite = white_rook; break;
-            case "white_pawn": this.GetComponent<SpriteRenderer>().sprite = white_pawn; break;
+            case "white_queen": this.GetComponent<SpriteRenderer>().sprite = white_queen; player = "white"; break;
+            case "white_knight": this.GetComponent<SpriteRenderer>().sprite = white_knight; player = "white"; break;
+            case "white_bishop": this.GetComponent<SpriteRenderer>().sprite = white_bishop; player = "white"; break;
+            case "white_king": this.GetComponent<SpriteRenderer>().sprite = white_king; player = "white"; break;
+            case "white_rook": this.GetComponent<SpriteRenderer>().sprite = white_rook; player = "white"; break;
+            case "white_pawn": this.GetComponent<SpriteRenderer>().sprite = white_pawn; player = "white"; break;
         }
     }
 
@@ -79,9 +79,12 @@ public class Chessman : MonoBehaviour
 
     private void OnMouseUp()
     {
-        DestroyMovePlate();
+        if (!controller.GetComponent<Game>().IsGameOver() && controller.GetComponent<Game>().GetCurrentPlayer() == player)
+        {
+            DestroyMovePlate();
 
-        InitiateMovePlates();
+            InitiateMovePlates();
+        }
     }
 
     public void DestroyMovePlate()
