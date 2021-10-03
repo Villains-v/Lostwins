@@ -9,6 +9,8 @@ TagManager:
   - FadeIn
   - FadeOut
   - MovePlate
+  - WinnerText
+  - RestartText
   layers:
   - Default
   - TransparentFX

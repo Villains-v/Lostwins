@@ -133,7 +133,6 @@ GameObject:
   m_Component:
   - component: {fileID: 127195850}
   - component: {fileID: 127195849}
-  - component: {fileID: 127195851}
   m_Layer: 0
   m_Name: Board
   m_TagString: Untagged
@@ -206,32 +205,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &127195851
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 127195848}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3b547c3b8cc09994092e7f025cd76f8b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  controller: {fileID: 0}
-  movePlate: {fileID: 0}
-  black_queen: {fileID: 21300000, guid: 089efdbe129ac8e4188c358195d3c52e, type: 3}
-  black_knight: {fileID: 21300000, guid: 9781a62569349dc49a8eebd5a2b4f917, type: 3}
-  black_bishop: {fileID: 21300000, guid: 997e165edf92e6a46aa55825199a2908, type: 3}
-  black_king: {fileID: 21300000, guid: fc492721e9fab3b4898f961193263a6d, type: 3}
-  black_rook: {fileID: 21300000, guid: 9cd6fc6b8410697459009dd86225cee9, type: 3}
-  black_pawn: {fileID: 21300000, guid: 1c90d15fc00032c43b627bbdd3bcece9, type: 3}
-  white_queen: {fileID: 21300000, guid: b34d5fc38a634c94f994b06976a69421, type: 3}
-  white_knight: {fileID: 21300000, guid: e80e777059f005c43b9b6b40e46f0f52, type: 3}
-  white_bishop: {fileID: 21300000, guid: 045c1f3f5668dab41aa0707c04e71c7c, type: 3}
-  white_king: {fileID: 21300000, guid: d46c5361d80101644aea687218258d52, type: 3}
-  white_rook: {fileID: 21300000, guid: 3299408cb9be3cf4eb35e2724e577a18, type: 3}
-  white_pawn: {fileID: 21300000, guid: 9a45a86e13eeed640967bfd29f9ee10e, type: 3}
 --- !u!1001 &689362400
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -544,8 +517,8 @@ GameObject:
   - component: {fileID: 1614709809}
   - component: {fileID: 1614709808}
   m_Layer: 5
-  m_Name: Text (1)
-  m_TagString: Untagged
+  m_Name: RestartText
+  m_TagString: RestartText
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -576,7 +549,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1614709806}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 
@@ -623,8 +596,8 @@ GameObject:
   - component: {fileID: 1801998197}
   - component: {fileID: 1801998196}
   m_Layer: 5
-  m_Name: Text
-  m_TagString: Untagged
+  m_Name: WinnerText
+  m_TagString: WinnerText
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -655,7 +628,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1801998194}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 
@@ -768,7 +741,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2021616725}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -1}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
