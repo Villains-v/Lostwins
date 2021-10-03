@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "214243778387",
+    "project_id": "lostwins-backend",
+    "storage_bucket": "lostwins-backend.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:214243778387:android:928668947a209bffdb4ba6",
+        "android_client_info": {
+          "package_name": "com.Villians.Lostwins"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "214243778387-s5g9uhgs6hkt8keik1bg3rbhhnmhqc0h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAY1E0ks-ivZxiiGF0nlmSffLBX-IL31Ak"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "214243778387-s5g9uhgs6hkt8keik1bg3rbhhnmhqc0h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
