@@ -1,10 +1,11 @@
 ﻿using System;
-namespace Chess {
-	public struct Coord : IComparable<Coord> {
+namespace Chess
+{
+	public struct Coord2 : IComparable<Coord> {
 		public readonly int fileIndex;
 		public readonly int rankIndex;
 
-		public Coord (int fileIndex, int rankIndex) {
+		public Coord2 (int fileIndex, int rankIndex) {
 			this.fileIndex = fileIndex;
 			this.rankIndex = rankIndex;
 		}
