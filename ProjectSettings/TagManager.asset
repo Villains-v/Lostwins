@@ -8,6 +8,9 @@ TagManager:
   - Portal
   - FadeIn
   - FadeOut
+  - MovePlate
+  - WinnerText
+  - RestartText
   layers:
   - Default
   - TransparentFX
