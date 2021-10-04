@@ -427,6 +427,9 @@ MonoBehaviour:
   chesspiece: {fileID: 7164456724381516558, guid: ac67c1a59ce315a4fa3d588340125941, type: 3}
   whitePlayerType: 0
   blackPlayerType: 1
+  aiSettings: {fileID: 0}
+  colors: []
+  aiDiagnosticsUI: {fileID: 0}
 --- !u!4 &1206849691
 Transform:
   m_ObjectHideFlags: 0
@@ -645,7 +648,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 20
+    m_FontSize: 25
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
