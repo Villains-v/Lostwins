@@ -122,6 +122,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b547c3b8cc09994092e7f025cd76f8b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  loadCustomPosition: 0
+  customPosition: 1rbq1r1k/2pp2pp/p1n3p1/2b1p3/R3P3/1BP2N2/1P3PPP/1NBQ1RK1 w - -
+    0 1
+  whitePlayerType: 0
+  blackPlayerType: 0
+  colors: []
   controller: {fileID: 0}
   movePlate: {fileID: 2094772649677943174, guid: 2c08b1cfc450af843897393f994527f5, type: 3}
   black_queen: {fileID: 21300000, guid: dafec7a30bcdf9b459338fd019c23bc4, type: 3}
