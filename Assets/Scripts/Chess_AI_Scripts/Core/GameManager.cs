@@ -4,8 +4,7 @@ using System.Linq;
 using UnityEngine;
 
 namespace Chess.Game {
-	public class GameManager : MonoBehaviour
-	{
+	public class GameManager : MonoBehaviour {
 
 		public enum Result { Playing, WhiteIsMated, BlackIsMated, Stalemate, Repetition, FiftyMoveRule, InsufficientMaterial }
 
