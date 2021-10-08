@@ -73,12 +73,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: fc492721e9fab3b4898f961193263a6d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 96d3069ed8b604a0aa1ac7d0e8a4d7e7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.2, y: 0.2}
+  m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -101,8 +101,8 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.2, y: 0.2}
-    newSize: {x: 0.2, y: 0.2}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -124,15 +124,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controller: {fileID: 0}
   movePlate: {fileID: 2094772649677943174, guid: 2c08b1cfc450af843897393f994527f5, type: 3}
-  black_queen: {fileID: 21300000, guid: dafec7a30bcdf9b459338fd019c23bc4, type: 3}
-  black_knight: {fileID: 21300000, guid: 6582ac1d753cfb747ad382558da75567, type: 3}
-  black_bishop: {fileID: 21300000, guid: eb01555249ca771488f1f12ed15a2204, type: 3}
-  black_king: {fileID: 21300000, guid: a6480862d39875f478831f4ab9be3589, type: 3}
-  black_rook: {fileID: 21300000, guid: 4d4b2ea4245a048448138efe5ef06ffd, type: 3}
-  black_pawn: {fileID: 21300000, guid: 29f19302e19437c468e6d383b32e29e9, type: 3}
-  white_queen: {fileID: 21300000, guid: c7a8031a5cb22ab48984cdbd8a4246ce, type: 3}
-  white_knight: {fileID: 21300000, guid: b09eb7714ac768847bb4da0e35c571bb, type: 3}
-  white_bishop: {fileID: 21300000, guid: a4007365856912d4ea694d2b6927c808, type: 3}
-  white_king: {fileID: 21300000, guid: 8f6abad321efff142a3f7e25779f20dd, type: 3}
-  white_rook: {fileID: 21300000, guid: 649fb80d37fc2a54ab19f306b990cb9f, type: 3}
-  white_pawn: {fileID: 21300000, guid: bb930cd8d4faaa44da220e9a93f1249c, type: 3}
+  black_queen: {fileID: 21300000, guid: a458bbb17634aac47a0dfab0e157a5fc, type: 3}
+  black_knight: {fileID: 21300000, guid: 522bb0e1b3cdd4546bff9948a0fff8e7, type: 3}
+  black_bishop: {fileID: 21300000, guid: 014908ad4c2b3024eb6f98e1265dddec, type: 3}
+  black_king: {fileID: 21300000, guid: 7189ab08409e0a743aac60268ac3cb5e, type: 3}
+  black_rook: {fileID: 21300000, guid: ae67d536640b0aa4b88b717acb4c5907, type: 3}
+  black_pawn: {fileID: 21300000, guid: 9d5d2abf242d4564799de0585b493b24, type: 3}
+  white_queen: {fileID: 21300000, guid: f394b09a74875fa43a99d250e75b45ad, type: 3}
+  white_knight: {fileID: 21300000, guid: cd2605893d6dd3d4888b9dc9a13ee596, type: 3}
+  white_bishop: {fileID: 21300000, guid: ca9671591563a4b4e8487dd4d03fc0d2, type: 3}
+  white_king: {fileID: 21300000, guid: efe81b39307fc504aacbdcd040ae3ead, type: 3}
+  white_rook: {fileID: 21300000, guid: 20971000c84dfdb4c85c9c74046b6f2d, type: 3}
+  white_pawn: {fileID: 21300000, guid: 02f4ec452bdcc9a4d8cb57dedd1a2e64, type: 3}
